@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SharedFlowBundle revision="3" name="FH_EdgeMicro_Prevention">
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1532374188807</CreatedAt>
+    <CreatedBy>developer@company.com</CreatedBy>
+    <Description>Prevents calls from going into MG proxies</Description>
+    <DisplayName>FH_EdgeMicro_Prevention</DisplayName>
+    <LastModifiedAt>1532374188807</LastModifiedAt>
+    <LastModifiedBy>developer@company.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:0388d204a6905e349e438b9ed6a8af59806f15e739e97bf504285c2f84b13787b02af72398ddb459fc4f6c61b9c9ec9e870e31efa4827c413a84d2550529bd53</ManifestVersion>
+    <Policies>
+        <Policy>JavaScriptGetProxyName</Policy>
+        <Policy>RaiseFault404Error</Policy>
+    </Policies>
+    <Resources>
+        <Resource>jsc://JavaScript.GetProxyName.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <subType>SharedFlow</subType>
+    <SharedFlows>
+        <SharedFlow>default</SharedFlow>
+    </SharedFlows>
+</SharedFlowBundle>

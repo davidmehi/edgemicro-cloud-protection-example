@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="JavaScriptGetProxyName" version="SHA-512:1d42d77c0851fc10af0a98002d252a56aa967e6f4483bf31efc0f90069a8efff9d1c85d6d8bfb42d0bd55b02b15c6ad28d905c268070b5b4dc86b4cded733b16"/>
+        <VersionInfo resourceName="RaiseFault404Error" version="SHA-512:61b978b0827baaca0d37839a303dcb4267e4c613073ea2989ec09c2108ec1a754f24379ef43b0e57e1f26c7c0f73bc1967a2601dcce8f12f321c3f0d4127b88c"/>
+    </Policies>
+    <ProxyEndpoints/>
+    <Resources>
+        <VersionInfo resourceName="jsc://JavaScript.GetProxyName.js" version="SHA-512:ddaf4579ca9550fc7138efd050af2d55dbcf647d7ab8256bdb761c67012e6b01e93b3bfd987057677961f434ce78da96d7d307231d5b8c1f37318ca9ef5e06e6"/>
+    </Resources>
+    <SharedFlows>
+        <VersionInfo resourceName="default" version="SHA-512:b5cc32bf77a133d12352d20ed1b1c9328bc879788d59b4308e55ac680f267668671ee8c61610beeeb9eb57b7d7be4bb69c9ddcd3673d9d304af452bad3699bbf"/>
+    </SharedFlows>
+    <TargetEndpoints/>
+</Manifest>
